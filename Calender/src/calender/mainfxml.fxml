@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="412.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calender.Maincontroller">
+   <children>
+      <TextField fx:id="yearInputField" alignment="CENTER" layoutX="157.0" layoutY="40.0" prefHeight="29.0" prefWidth="80.0" text="2018" />
+      <Label fx:id="mymessege" layoutX="157.0" layoutY="23.0" text="Enter the year :" />
+      <ComboBox fx:id="comboBox" layoutX="249.0" layoutY="42.0" onAction="#combochange" prefHeight="25.0" prefWidth="118.0" promptText="Select Month" />
+      <Label layoutX="50.0" layoutY="107.0" prefHeight="28.0" prefWidth="481.0" text="Sat       Sun       Mon        Tue        Wed        Thu        Fri" textFill="#da2424">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="monthTitle" layoutX="218.0" layoutY="72.0" prefHeight="35.0" prefWidth="125.0" text="January" textFill="#078ef5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="395.0" layoutX="123.0" layoutY="148.0" startX="-100.0" />
+      <Line endX="395.0" layoutX="124.0" layoutY="190.0" startX="-100.0" />
+      <Line endX="395.0" layoutX="125.0" layoutY="231.0" startX="-100.0" />
+      <Line endX="395.0" layoutX="123.0" layoutY="275.0" startX="-100.0" />
+      <Line endX="395.0" layoutX="125.0" layoutY="319.0" startX="-100.0" />
+      <Label fx:id="l1" layoutX="54.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" layoutX="119.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="190.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l4" layoutX="265.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l5" layoutX="343.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l6" layoutX="422.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l7" layoutX="486.0" layoutY="159.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l8" layoutX="54.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l9" layoutX="119.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l10" layoutX="190.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l11" layoutX="265.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l12" layoutX="343.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l13" layoutX="422.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l14" layoutX="486.0" layoutY="200.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l15" layoutX="54.0" layoutY="243.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l16" layoutX="119.0" layoutY="244.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l17" layoutX="190.0" layoutY="244.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l18" layoutX="265.0" layoutY="244.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l20" layoutX="422.0" layoutY="244.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l19" layoutX="343.0" layoutY="244.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l21" layoutX="486.0" layoutY="244.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l28" layoutX="486.0" layoutY="287.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l27" layoutX="422.0" layoutY="287.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l26" layoutX="343.0" layoutY="286.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l25" layoutX="265.0" layoutY="287.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l24" layoutX="190.0" layoutY="288.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l23" layoutX="119.0" layoutY="287.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l22" layoutX="54.0" layoutY="287.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l29" layoutX="54.0" layoutY="331.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l30" layoutX="119.0" layoutY="331.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l31" layoutX="190.0" layoutY="330.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l32" layoutX="265.0" layoutY="330.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l33" layoutX="343.0" layoutY="330.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l34" layoutX="422.0" layoutY="330.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="l35" layoutX="486.0" layoutY="330.0" text="01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="401.0" layoutY="23.0" text="current Month:" />
+      <Label fx:id="currentM" layoutX="507.0" layoutY="23.0" text="Label" />
+   </children>
+</AnchorPane>
